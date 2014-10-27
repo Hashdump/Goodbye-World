@@ -12,7 +12,7 @@ eval(implode(array_reverse(array_slice(file(__FILE__),true+!false)))) ? !!true :
 			$$e = "Hello";
 		} catch(Exception $e) {
 			end: return $NULL->msg;
-			throw new Exception("World!");
+			throw new Exception("World!\n");
 		try {
 	while(@!(1/0) && true == "false") {
 function lol() {
